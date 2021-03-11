@@ -1,12 +1,15 @@
-//Set Up & Imports//
+// import Counter from './components/Counter.jsx'
+import FilterContainer from "./components/FilterContainer";
 import "./App.css";
-import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      <h1>Fruit Filter</h1>
+      <FilterContainer />
     </div>
   );
 }
+
 export default App;
